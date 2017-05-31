@@ -1,0 +1,101 @@
+/*
+ * Start Bootstrap - Business Frontpage (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+nav {
+    background-color: #654831;
+    height: 40px;
+    margin-bottom:  0;
+}
+
+nav ul {
+    text-align: right;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    line-height: 40px;
+}
+
+nav a {
+    color: #fff;
+    font-size: 16px;
+}
+
+nav a:hover{
+    color: #f6e183;
+    text-decoration: none;
+}
+
+nav a::after{
+    content: "｜";
+}
+
+.info_01 img {
+    margin: 30px 0 0 0!important;
+}
+
+.info_02 {
+    background-color: #fefaee;
+    padding: 30px 0; 
+}
+
+.info_02 img {
+    margin: 0 auto;
+}
+
+
+.tittle,.tittle02 {
+    border-bottom: 2px solid #987419;
+    text-align: center;
+    margin: 40px 0 30px 0;;
+}
+
+.tittle span,.tittle02 span {
+    font-size: 25px;
+    display: inline-block;
+    color: #987419;
+    background-color: #fff;
+    margin: -20px;
+    width: 130px;
+    z-index: 99;
+    vertical-align: middle;
+}
+
+.tittle02 span {
+    background-color: #fefaee;
+}
+
+.info_map {
+    margin: 0;
+    padding: 0;
+}
+
+.info_map iframe {
+    margin-top: 20px;
+}
+
+/* Customize the text color and shadow color and to optimize text legibility. */
+
+.tagline {
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #987419;
+    text-align: center;
+    color: #fff;
+    padding: 10px 0;
+}
+footer h4 {
+    margin: 0;
+}
